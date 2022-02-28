@@ -1,0 +1,15 @@
+*.jar
+
+.classpath
+.project
+results
+
+/.metadata
+/.recommenders
+
+/Sokoban4J/.settings
+/Sokoban4J/target
+
+/Sokoban4J-Playground/.settings
+/Sokoban4J-Playground/target
+
