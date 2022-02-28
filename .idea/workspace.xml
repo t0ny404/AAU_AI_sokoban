@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="project:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -43,112 +48,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ea11f5f-51b0-46a9-8489-381f305dd099" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J-Playground/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J-Playground/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J-Playground/skip.default-javadoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J-Playground/src/main/java/AgentIDAs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J-Playground/src/main/java/RunMyAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/levels/easy.sok" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/skip.default-javadoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/ISokobanGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/Sokoban.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/SokobanConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/SokobanConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/SokobanSim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/SokobanVis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/agents/ArtificialAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/agents/DFS1Agent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/agents/DFS2Agent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/agents/HumanAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/agents/MTDFS1Agent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/agents/MTDFS2Agent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/agents/actions/ActionsBFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/agents/actions/CircularArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/SokobanResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/actions/EDirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/actions/compact/CAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/actions/compact/CMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/actions/compact/CPush.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/actions/compact/CWalk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/actions/compact/CWalkPush.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/actions/compressed/MAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/actions/compressed/MMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/actions/compressed/MPush.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/actions/oop/EActionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/actions/oop/IAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/actions/oop/MoveOrPush.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/actions/slim/SAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/actions/slim/SMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/actions/slim/SPush.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/agent/IAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/board/compact/BoardCompact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/board/compact/CTile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/board/compressed/BoardCompressed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/board/compressed/MTile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/board/compressed/StateCompressed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/board/minimal/StateMinimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/board/oop/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/board/oop/EEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/board/oop/EPlace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/board/oop/ESpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/board/oop/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/board/oop/entities/BoxEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/board/oop/entities/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/board/oop/entities/EntityFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/board/oop/entities/PlayerEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/board/slim/BoardSlim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/simulation/board/slim/STile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/ui/BaseRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/ui/SokobanFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/ui/SokobanView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/ui/UIBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/ui/UICamera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/ui/actions/IUIAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/ui/actions/UIActionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/ui/actions/UIMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/ui/actions/UIPush.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/ui/atlas/SpriteAtlas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/ui/atlas/TextureAtlas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/ui/atlas/resources/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/ui/atlas/resources/sprites.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/ui/atlas/resources/sprites.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/ui/entities/UIBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/ui/entities/UIEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/ui/entities/UIPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/ui/utils/TimeDelta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/utils/S4JLReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/utils/SOK2S4JL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/utils/Sanitize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/utils/SokReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/utils/TextLevelS4JL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/resources/cz/sokoban4j/ui/atlas/resources/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/resources/cz/sokoban4j/ui/atlas/resources/sprites.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/main/resources/cz/sokoban4j/ui/atlas/resources/sprites.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/test/java/cz/jsokoban/simulation/board/BoardCompactTest_Memory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/test/java/cz/jsokoban/simulation/board/BoardCompressedTest_Memory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/test/java/cz/jsokoban/simulation/board/BoardCreationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/test/java/cz/jsokoban/simulation/board/BoardSlimTest_Memory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/test/java/cz/jsokoban/simulation/board/SokobanActionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/test/java/cz/jsokoban/simulation/board/SokobanBoards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sokoban4J/src/test/java/cz/jsokoban/simulation/board/ValidatingAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/makejar" afterDir="false" />
+    <list default="true" id="8ea11f5f-51b0-46a9-8489-381f305dd099" name="Default Changelist" comment="other agents">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/project_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/sokoban4j_playground_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sokoban4J/levels/easy.sok" beforeDir="false" afterPath="$PROJECT_DIR$/Sokoban4J/levels/easy.sok" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +97,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/Sokoban4J/src/main/java/cz/sokoban4j/agents" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../project_sokoban" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -275,7 +180,7 @@
       <workItem from="1645799854021" duration="3098000" />
       <workItem from="1645890510234" duration="17765000" />
       <workItem from="1645971453732" duration="8997000" />
-      <workItem from="1646054688474" duration="20787000" />
+      <workItem from="1646054688474" duration="26288000" />
     </task>
     <task id="LOCAL-00001" summary="sd">
       <created>1575750652955</created>
@@ -333,7 +238,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576358616123</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="initial commit">
+      <created>1646083326447</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1646083326447</updated>
+    </task>
+    <task id="LOCAL-00010" summary="other agents">
+      <created>1646083492209</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1646083492209</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,13 +280,22 @@
     <MESSAGE value="Levels added" />
     <MESSAGE value="README update" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="other agents" />
+    <option name="LAST_COMMIT_MESSAGE" value="other agents" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1646087619731">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1646087619731" />
     <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1646074886881">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1646074886881" />
+    <state x="499" y="207" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1646087814645">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="207" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1646087814645" />
     <state x="162" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1646079414607">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -380,22 +308,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="158" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1646082503012" />
-    <state width="1493" height="264" key="GridCell.Tab.0.bottom" timestamp="1646082187582">
+    <state width="1493" height="264" key="GridCell.Tab.0.bottom" timestamp="1646088673908">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1646082187582" />
-    <state width="1493" height="264" key="GridCell.Tab.0.center" timestamp="1646082187582">
+    <state width="1493" height="264" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1646088673908" />
+    <state width="1493" height="264" key="GridCell.Tab.0.center" timestamp="1646088673908">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1646082187582" />
-    <state width="1493" height="264" key="GridCell.Tab.0.left" timestamp="1646082187582">
+    <state width="1493" height="264" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1646088673908" />
+    <state width="1493" height="264" key="GridCell.Tab.0.left" timestamp="1646088673907">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1646082187582" />
-    <state width="1493" height="264" key="GridCell.Tab.0.right" timestamp="1646082187582">
+    <state width="1493" height="264" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1646088673907" />
+    <state width="1493" height="264" key="GridCell.Tab.0.right" timestamp="1646088673908">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1646082187582" />
+    <state width="1493" height="264" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1646088673908" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1645475234285">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -412,10 +340,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1645475234285" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1646087872070">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1646087872070" />
     <state x="490" y="159" width="540" height="524" key="StructurePopup" timestamp="1645910566735">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="490" y="159" width="540" height="524" key="StructurePopup/0.0.1536.834@0.0.1536.834" timestamp="1645910566735" />
+    <state x="361" y="150" width="958" height="534" key="Vcs.Push.Dialog.v2" timestamp="1646083496591">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" width="958" height="534" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1646083496591" />
     <state x="584" y="195" width="598" height="444" key="chooseDestDirectoryDialog" timestamp="1645291769434">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
