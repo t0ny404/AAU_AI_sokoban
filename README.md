@@ -1,4 +1,4 @@
-**I implemented "A*", "BFS" and "IDA*" algorithms.**
+**I implemented "A Star", "BFS" and "IDA Star" algorithms.**
 
 
 # Sokoban4J
